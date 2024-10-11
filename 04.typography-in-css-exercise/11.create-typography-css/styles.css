@@ -1,0 +1,54 @@
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+body {
+    padding: 2em;
+    font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Helvetica, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    background-color: rgb(201,201,201);
+}
+
+th, td {
+    border: 1px solid rgb(201,201,201);;
+    width: 33.33%;
+    padding: 0.2em;
+}
+
+blockquote {
+    border-left: 4px solid rgb(221,221,221);
+    padding-left: 2em;
+    font-style: italic;
+}
+
+ul {
+    list-style: square;
+}
+
+ul ul {
+    list-style: disc;
+}
+
+ul ul ul {
+    list-style: circle;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(241,241,241)
+}
+
+blockquote p:last-child {
+    text-align: right;
+}
