@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(238, 238, 238);
+}
+
+.container {
+    display: flex;
+    gap: 1.5em;
+}
+
+img {
+    border-radius: 1em;
+    box-shadow: 0 0 2em 0 rgba(0, 0, 0, 0.4);
+}
+
+img:not(:nth-child(2)) {
+    width: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+img:nth-child(2) {
+   border-width: 0 1.5em 0 1.5em;
+   border-style: solid;
+   border-color: black;
+}

@@ -1,0 +1,53 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    font: 16px/1.5 sans-serif;
+    background-color: rgb(238, 238, 238);
+}
+
+h2 {
+    font: normal 2em serif;
+}
+
+.masonry {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    height: 2200px;
+    gap: 2em;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1024px;
+    gap: 2em;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    background-color: white;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+.card section{
+   padding: 1.5em;
+   opacity: 0.6;
+   flex-grow: 1;
+}
+
+.card footer{
+    border-top: 2px solid gray;
+    padding: 1.5em;
+    opacity: 0.6;
+}

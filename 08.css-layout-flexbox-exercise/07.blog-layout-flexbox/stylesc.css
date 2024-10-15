@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 2em;
+}
+
+header {
+    flex-basis: 100%;
+    border-bottom: 2px solid black;
+}
+
+main {
+    flex: 7 3;
+    
+}
+
+aside {
+    flex: 3 7;
+    margin-left: 6em;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+} 
+
+img {
+    background-color: rgb(255, 255, 255);
+    padding: 0.5em;
+    border: 4px solid black;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.4);
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    font-style: italic;
+    opacity: 0.6;
+    float: right;
+    width: 50%;
+    border-left: 4px solid lightgrey;
+    padding-left: 1em;
+    margin: 0 0 0 1em;
+
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.float-right {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+.float-left {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+.page-title a {
+    font: bold 3em/1.5 sans-serif;
+    color: black;
+    text-transform: uppercase;
+}
+
+blockquote p:last-child {
+    text-align: right;
+}
